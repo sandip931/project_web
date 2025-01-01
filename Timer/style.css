@@ -1,0 +1,56 @@
+body{
+    /* color: ; */
+    background-color: #6d6da3;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+}
+#canvas{
+    /* background-color: #a4a096cd; */
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    max-width: 240px;
+
+}
+#title_game{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#winnerName{
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#resetBtn{
+    background-color: #2e2ea2;
+    color: white;
+    border: none;
+    padding: 9px 16px ;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    background-color: #6ca5a5;
+    color: white;
+    margin: 8px;
+    font-size: 30px;
+    border-radius: 14px;
+}
+.cell:hover{
+    transition: .24s ease-in;
+    box-shadow: 5px 8px 28px 0px #5cfcec;
+}
