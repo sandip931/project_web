@@ -1,2 +1,2 @@
 # project_web
-project using html css javascript and mysql and php 
+calculator using html css and javascript , ..
