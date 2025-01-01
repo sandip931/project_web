@@ -1,2 +1,2 @@
 # project_web
-calculator using html css and javascript , ..
+Projects Using HTML CSS JS and PHP / MYSQL database. (LIBRARY : BOOTSTRAP) 
